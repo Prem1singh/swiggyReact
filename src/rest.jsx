@@ -1,6 +1,6 @@
 import { useState } from "react"
 export default function Rest(props) {
-    const [path, setpath] = useState('public/images/')
+    const [path, setpath] = useState('/images/')
     return (
         <div className="duration-500 my-5 mx-4 shrink-0 cursor-pointer overflow-hidden sm:w-[380px] w-[90vw] " style={{
             transform:(props.sc?'':`translateX(${-props.scroll * 620}px)`) ,

@@ -50,7 +50,7 @@ const togglehandler=(e)=>{
 
 }
     return(
-        <div className=" shadow-lg p-4 sticky top-0 bg-white z-10"><div className="flex max-w-[1280px] mx-auto"><img src="public/logo.png" alt="" className="w-[90px]"/><div className=" items-center ms-4 hover:text-[#fc8019] font-bold group flex" onClick={()=>{settoggle(!toggle)}}><p className="border-b-2 pb-1 border-black group-hover:border-[#fc8019] cursor-pointer">other</p> <RxCaretDown />
+        <div className=" shadow-lg p-4 sticky top-0 bg-white z-10"><div className="flex max-w-[1280px] mx-auto"><img src="/logo.png" alt="" className="w-[90px]"/><div className=" items-center ms-4 hover:text-[#fc8019] font-bold group flex" onClick={()=>{settoggle(!toggle)}}><p className="border-b-2 pb-1 border-black group-hover:border-[#fc8019] cursor-pointer">other</p> <RxCaretDown />
         </div>
         <div className="md:w-[40vw] w-[80vw] h-[100vh] fixed top-0 bg-white z-20 duration-500"
         style={{
