@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function Catitem(props) {
-    const[path,setpath]=useState('public/images/')
+    const[path,setpath]=useState('/images/')
     return(
             <div className="shrink-0 duration-500" style={{
                 transform:`translateX(${-props.scroll*210}px)`,
